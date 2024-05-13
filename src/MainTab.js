@@ -44,7 +44,7 @@ function Main() {
           <div className="details">
             <div className="item">
              <div className="pix">
-                <img src={taxi} height="30px" width="30px" />
+                <img src={taxi} height="30px" width="30px" alt='' />
               </div>
               <div className="txt3">
                 <h4>Taxi</h4>
@@ -54,7 +54,7 @@ function Main() {
             </div>
             <div className="item">
               <div className="pix">
-                <img src={shopping} height="30px" width="30px" />
+                <img src={shopping} height="30px" width="30px" alt='' />
               </div>
               <div className="txt3">
                 <h4>Shopping</h4>
@@ -64,7 +64,7 @@ function Main() {
             </div>
             <div className="item">
               <div className="pix">
-                <img src={netflix} height="30px" width="30px" />
+                <img src={netflix} height="30px" width="30px" alt='' />
               </div>
               <div className="txt3">
                 <h4>Netflix</h4>

@@ -22,7 +22,7 @@ function Header() {
       </ul>
       <div className='noti'>
         <FiBell />
-        <img src={user} height="40px" />
+        <img src={user} height="40px" alt='' />
       </div>
       
 

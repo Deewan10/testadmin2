@@ -13,7 +13,7 @@ const Card2 = () => {
 
     <div className="cont">
       <div className="cont-pic">
-        <img src={woman} height="50px" width="50px"  />
+        <img src={woman} height="50px" width="50px" alt='' />
         <div className="text">
           <h4>Lilly Donovan</h4>
           <p>Business Trainer</p>
@@ -22,15 +22,15 @@ const Card2 = () => {
       <h4>How to properly manage your personal budget?</h4>
       <div className="cont-icon">
         <div className="vid">
-          <img src={video} height="15x" width="15px" />
+          <img src={video} height="15x" width="15px" alt='' />
           <p>Video</p>
         </div>
         <div className="time">
-          <img src={time} height="15x" width="15px" />
+          <img src={time} height="15x" width="15px" alt='' />
           <p>15 minutes</p>
         </div>
         <div className="star">
-          <img src={star} height="15x" width="15px" />
+          <img src={star} height="15x" width="15px" alt='' />
           <p>12 likes</p>
         </div>
       </div>
