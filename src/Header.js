@@ -16,9 +16,9 @@ function Header() {
         
       </div>
       <ul className="header-links">
-        <li><a href="#">Feedback</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Help</a></li>
+        <li><a href="index.html">Feedback</a></li>
+        <li><a href="index.html">Contact</a></li>
+        <li><a href="index.html">Help</a></li>
       </ul>
       <div className='noti'>
         <FiBell />
