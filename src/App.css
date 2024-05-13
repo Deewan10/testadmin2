@@ -557,7 +557,6 @@ border-radius: 50%;
 border-top: 2px solid blue;
 border-left: 2px solid transparent;
 border-right: 2px solid blue;
-border-bottom: 2px solid blu;
 transform: scale(-1);
 animation: moveArc 1s forwards;   
 }
