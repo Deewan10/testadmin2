@@ -8,6 +8,8 @@ import AtmCard1 from './DebitCard.js';
 import taxi from './assets/icons8-finish-flag-25.png';
 import shopping from './assets/icons8-shopping-bag-50.png';
 import netflix from './assets/icons8-netflix-30.png';
+import Line from './Line';
+
 
 function Main() {
   const [activeTab, setActiveTab] = useState('main-left');
@@ -29,7 +31,15 @@ function Main() {
       <div className={activeTab === 'main-left' ? 'main-left' : 'hidden'}>
         <Cards/>
         <BarChart/>
-        <Card2 />
+        <div className="lineChart">
+          <div className="linee">
+            <Line />
+          </div>
+          <div className="card22">
+            <Card2 />
+          </div>
+        </div>
+        
       </div>
 
       <div className="main-right">
