@@ -32,7 +32,9 @@ function Main() {
         <Cards/>
         <BarChart/>
         <div className="lineChart">
+          {/* <h5>Spent time</h5> */}
           <div className="linee">
+            
             <Line />
           </div>
           <div className="card22">

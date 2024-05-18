@@ -5,11 +5,11 @@ import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Filler, Legend);
 
 const data = {
-  labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat'],
+  labels: ['','Sun', 'Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat'],
   datasets: [
     {
       label: '',
-      data: [700, 300, 200, 278, 189, 239],
+      data: [200, 180, 300, 250, 400, 369, 450],
       borderColor: 'red',
       backgroundColor: 'lightgrey',
       fill: true,
@@ -58,7 +58,7 @@ const options = {
 
   animation: {
     duration: 2000, 
-    easing: 'easeOutBounce', 
+    easing: 'slideRight', 
     animateScale: true,
     animateRotate: true,
   },
