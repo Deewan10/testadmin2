@@ -400,7 +400,7 @@ input[type="text"] {
 
 }
 .linee {
-  width: 51%;
+  width: 54%;
   height: 200px;
   background-color: #fff;
   box-shadow: 1px 1px 1px 3px rgb(243, 238, 238);
@@ -408,14 +408,14 @@ input[type="text"] {
   padding-left: 0px;
 }
 .card22 {
-  width: 20%;
+  width: 22%;
   position: absolute;
   right: 450px;
-  bottom: 10px;
+  bottom: 0px;
 }
 .cont {
 width: 100%;
-height: 185px;
+height: 190px;
 padding:0px 5px;
 margin-top: 20px;
 margin-left: 5px;
