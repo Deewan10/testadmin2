@@ -759,6 +759,9 @@ width: 90%;
     margin-left: 30px;
     
 }
+.linechart {
+  position: relative;
+}
 .linee {
   width: 85%;
   height: 200px;
