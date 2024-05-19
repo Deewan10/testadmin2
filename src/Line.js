@@ -58,7 +58,7 @@ const options = {
 
   animation: {
     duration: 2000, 
-    easing: 'slideRight', 
+    easing: 'linear', 
     animateScale: true,
     animateRotate: true,
   },
